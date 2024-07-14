@@ -65,6 +65,3 @@ class AIBotBase(ChatClient):
         message_header = f"{len(message_encoded):<{self._header_length}}".encode(
             'utf-8')
         self._client_socket.send(message_header + message_encoded)
-
-    def _on_message_received(self, username, message):
-        print(f"{username} > {message}")
