@@ -15,9 +15,9 @@ class AIBotMode1(AIBotBase):
         super().__init__(username, ip, port)
         self.lines_to_response = lines_to_response
         self.lines_count = 0
-        self.ai_thread = threading.Thread(target=self._receive_messages)
-        self.ai_thread.daemon = True
-        self.ai_thread.start()
+        # self.ai_thread = threading.Thread(target=self._receive_messages)
+        # self.ai_thread.daemon = True
+        # self.ai_thread.start()
 
     def _receive_messages(self):
         while True:
