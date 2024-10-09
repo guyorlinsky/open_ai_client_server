@@ -22,11 +22,11 @@ This project implements a simple chat system using Python, which consists of bot
 #### mode1
 - Respond every N lines: The bot reads the conversation and responds after every N lines.
 
-![Alt text](./images/two clients and a mode 1 bot.png)
+![Alt text](./images/two_clients_and_a_mode_1_bot.png)
 #### mode2 
 - Respond every N seconds: The bot generates random, unrelated responses after every N seconds.
 
-![Alt text](./images/two clients and a mode 2 bot.png)
+![Alt text](./images/two_clients_and_a_mode_2_bot.png)
 
 
 ### Message Protocol:
