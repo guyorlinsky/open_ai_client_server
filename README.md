@@ -1,4 +1,4 @@
-# Concurrent Chat System wiht Open Ai agents
+# Concurrent Chat System with Open Ai agents
 ![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
 ![Non-blocking](https://img.shields.io/badge/Non--blocking-Sockets-008080)
 ![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-000000.svg?logo=openai)
