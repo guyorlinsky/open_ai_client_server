@@ -15,6 +15,7 @@ class AIBotMode2(AIBotBase):
         self.ai_thread.daemon = True  # Allows the thread to exit when the main program exits
         self.ai_thread.start()
 
+
     def _ai_bot_mode_2(self):
         while True:
             message = self._generate_message()
